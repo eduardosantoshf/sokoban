@@ -1,12 +1,25 @@
 ﻿# IAProject
 
-Intelligent agent capable of playing the Sokoban game.
+**Intelligent agent** capable of playing the **Sokoban** game.
 <p align="left">
-    <img src="./images/playerFace.png">
+    <img src="images/playerFace.png">
 </p>
 
 ## Course
-This project was developed under the [# Artifical Intelligence](https://www.ua.pt/en/uc/12287) course of [University of Aveiro](https://www.ua.pt/).
+This project was developed under the [Artifical Intelligence](https://www.ua.pt/en/uc/12287) course of [University of Aveiro](https://www.ua.pt/).
+
+## Search Algorithm
+* We implemented the **A\*** path-finder algorithm.
+* This algorithm is proven to expand the **minimal** number of paths when using the **same** heuristic.
+* This algorithm is used to calculate the pushes. To find the path from the keeper to the box of each push, we use a **Breadth-first search** algorithm.
+
+## Heuristic
+We implemented the **greedy** heuristic to sort the nodes in the queue. It is a fast heuristic to calculate and reduces the search time by quite a bit.
+
+## Dealing with deadlocks
+This agent is able to deal with the following types of deadlocks:
+* **Simple** deadlocks
+* **Freeze** deadlocks
 
 ## Install
 Make sure you are running Python 3.5 or higher
