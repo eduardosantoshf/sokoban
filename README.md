@@ -40,7 +40,7 @@ pip install -r requirements.txt
 ```
 
 ## How to run/play
-open 3 terminals:
+Open 3 terminals:
 
 `$ python3 server.py`
 
