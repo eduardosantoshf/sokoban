@@ -1,4 +1,4 @@
-﻿# IAProject
+﻿# IA Project
 
 **Intelligent agent** capable of playing the **Sokoban** game.
 <p align="left">
@@ -50,6 +50,9 @@ Open 3 terminals:
 
 ### Keys
 Directions: arrows
+
+## Grade 
+This project's grade was **17,8** out of 20.
 
 ## Authors
 * **Eduardo Santos**: [eduardosantoshf](https://github.com/eduardosantoshf)
